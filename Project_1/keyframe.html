@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Animation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .box
+        {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            padding: 150px;
+            font-family: sans-serif;
+            font-size: 25px;
+            text-align: center;
+            border-radius: 60px;
+            animation: shape-converter 3s infinite ease-in-out;
+        }
+        @keyframes shape-converter
+        {
+            0% {background-color: red;left: 0%}
+            20% {background-color: orange; left: 15%}
+            40% {background-color: yellow; left: 30%}
+            60% {background-color: blue;  left: 45%}
+            80% {background-color: indigo;  left: 60%}
+            100% {background-color: violet; left: 70%}
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>Animation Testing</p>
+    </div>
+    
+</body>
+</html>

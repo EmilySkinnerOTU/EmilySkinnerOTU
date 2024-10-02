@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Native Video </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <video id = "myvid" width="500" height="300" controls poster="on_record.png" preload="auto" autoplay muted loop>
+                <source src="on_record.mp4" type="video/mp4">
+                <source src="on_record.ogv" type="video/ogg">
+               //ogg and h256 --> mp4//
+            </video>
+            <br>
+            <button onclick="PlayPause()"> Play/Pause </button>
+            <script>
+                var myvidbtn = document.getElementById("myvid")
+                function PlayPause()
+                {
+                    if(myvidbtn.paused)
+                        myvidbtn.play();
+                    else
+                        myvidbtn.pause();
+
+                }
+            </script>
+             <footer>
+                <p>This is footer content</p>
+                <nav>
+                    <h5>
+                        <a href="index.html">Home</a>
+                        <a href="video.html">Lectures</a>
+                        <a href="example.html">Examples</a>
+                        <a href="forms.html">Feedback</a>
+                        
+                    </h5>
+                </nav>
+            </footer>
+        </div>  
+    </body>
+</html>

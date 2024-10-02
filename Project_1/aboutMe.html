@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="mainStyle.css">
+        <div id="banner">
+                
+            
+            <nav class="Contact">
+                <img src="Profile picture.png" class="pfp">
+                <h4>
+                <a href="mainPage.html" >Home</a> |
+                <a href="aboutMe.html">About Me</a> |
+                <a href="projects.html">Projects</a> |
+                <a href="contactMe.html">Contact Me</a> |
+            
+                </h4>
+
+            </nav>
+            
+        </div>
+        
+        
+        
+    </head>   
+    <body>
+
+        <nav id="wrapper">
+            <video id = "myvid" width="500" height="300" controls poster="on_record.png" preload="auto" autoplay muted loop>
+                <source src="on_record.mp4" type="video/mp4">
+                <source src="on_record.ogv" type="video/ogg">
+               //ogg and h256 --> mp4//
+            </video>
+            <br>
+            <button onclick="PlayPause()"> Play/Pause </button>
+            <script>
+                var myvidbtn = document.getElementById("myvid")
+                function PlayPause()
+                {
+                    if(myvidbtn.paused)
+                        myvidbtn.play();
+                    else
+                        myvidbtn.pause();
+
+                }
+            </script>  
+        </nav>
+        
+        
+    </body>
+    
+</html>
