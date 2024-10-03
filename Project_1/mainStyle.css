@@ -34,69 +34,12 @@
     }
     /* End Project */
   
-    /* About */
-    #about .about {
-      flex-direction: row;
-    }
-    #about .colLeft {
-      width: 610px;
-      padding-left: 64px;
-      height: 410px;
-    }
-    #about .about .colLeft .aboutImg::after {
-      left: -40px;
-      top: 34px;
-      height: 95%;
-      width: 95%;
-      border: 11px solid crimson;
-    }
-    #about .colRight h1 {
-      text-align: left;
-    }
-    #about .colRight {
-      text-align: left;
-      padding: 30px;
-    }
-    /* End About */
-  
-    /* contact  */
-    #contact .contact {
-      flex-direction: column;
-      align-items: center;
-      padding: 100px 0;
-      min-width: 22vh;
-      justify-content: center;
-    }
-    #contact .contactItem {
-      width: 90%;
-      flex-direction: row;
-      margin: 0;
-    }
-    #contact .contactItem .contactInfo {
-      text-align: left;
-      width: 100%;
-      padding-left: 20px;
-    }
-    #contact .contactItem .icon {
-      width: 100px;
-      height: 100px;
-    }
-    #contact .contactItems {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      margin: 0;
-    }
-    #contact .contactItem .icon img {
-      object-fit: contain;
-    }
-    /* End contact  */
+    
 
 
 body 
 { 
-    background: linear-gradient(#000000, #2e6878); 
+    background: linear-gradient(#000000, #3C889F); 
     
     font-family: Verdana, Geneva, Arial, sans-serif; 
     padding:0px; 
@@ -106,10 +49,10 @@ body
 #wrapper 
 { 
     width: 1200px;
-    height: 650px; 
+    height: 655px; 
     margin-left: auto; 
     margin-right: auto; 
-    background-color:#1b3d47; 
+    background-color:#265665; 
 } 
 /* The right-column ID style is floated right */ 
 #right-column 
@@ -131,13 +74,15 @@ body
 
 #footer 
 { 
-    height:80px; 
+  padding-left: 3%;
+    height:80px;
+    padding-bottom: 50px; 
 }
 #banner
 { 
     height:120px; 
     padding-top: -50px;
-    background-color: #132c33; 
+    background-color: #1B3D47; 
     
 } 
 .Contact{
