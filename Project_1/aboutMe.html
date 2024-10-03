@@ -27,24 +27,13 @@
     <body>
 
         <nav id="wrapper">
-            <video id = "myvid" width="500" height="300" controls poster="on_record.png" preload="auto" autoplay muted loop>
-                <source src="on_record.mp4" type="video/mp4">
-                <source src="on_record.ogv" type="video/ogg">
+            <video id = "myvid" width="360" height="auto" controls poster="Subject.png" preload="auto" autoplay muted loop>
+                <source src="Intro.mov" type="video/mp4">
+                <source src="Intro.mov" type="video/ogg">
                //ogg and h256 --> mp4//
             </video>
             <br>
-            <button onclick="PlayPause()"> Play/Pause </button>
-            <script>
-                var myvidbtn = document.getElementById("myvid")
-                function PlayPause()
-                {
-                    if(myvidbtn.paused)
-                        myvidbtn.play();
-                    else
-                        myvidbtn.pause();
-
-                }
-            </script>  
+            
         </nav>
         
         
