@@ -1,95 +1,7 @@
 @charset "UTF-8"; 
 
-@media {
-  .btn {
-    padding: 21px 50px;
-    font-size: 2.4rem;
-  }
-body 
-{ 
-  background: linear-gradient(#212A31, #D3D9D4); 
-  
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 
-} 
-#wrapper { 
-  width: 80%;
-  height: 650px; 
-  margin-left: auto;
-  margin-right: auto;
-  background-color:#2E3944; 
-} 
-#footer 
-{ 
-  padding-left: 3%;
-  height:2%;
-  padding-bottom: 2%; 
-}
-#banner
-{ 
-  height:100px; 
-  padding-top: -5%;
-  background-color: #212A31; 
-  
-} 
-nav{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-nav h4 {
-  
-  width: auto;
-  height: 40%;
-  font-size: 25px;
-  
-  
- 
-  margin-bottom: 30px;
-}
-nav h4 a{
-  color: white;
-}
-.pfp{
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left:10px;
-  transform: translateY(2px);
-  height: auto;
-  width: 75px;
-  padding-top: 10px;
-  
-}
-.Intro{
-  color: white;
-  padding-left: 10px;
-  font-size: 50px;
-  margin-top: auto;
-  margin-bottom: auto;
-  vertical-align: middle;
-  
-}
-.imgMe{
-  padding-top: 1%;
-  height: auto;
-  width: 300px;
-  position: absolute;
-  margin-left: 56%;
-  transform: translateY(4%)
-  
-  
-}
-
-header{
-  position:top;
-}
-.icons a{
-  color:white;
-  width: 10px;
-  height: auto;
-}
-}
+/* For Laptops and Big Devices */
 @media (min-width: 992px) {
     .btn {
       padding: 21px 50px;
@@ -103,8 +15,9 @@ header{
 
   } 
   #wrapper { 
+    position: relative;
     width: 80%;
-    height: 650px; 
+    height: 90vh; 
     margin-left: auto;
     margin-right: auto;
     background-color:#2E3944; 
@@ -165,8 +78,8 @@ header{
     height: auto;
     width: 300px;
     position: absolute;
-    margin-left: 56%;
-    transform: translateY(4%)
+    bottom:0px;
+    right: 0px;
     
     
   }
@@ -174,12 +87,12 @@ header{
   header{
     position:top;
   }
-  .icons a{
+  .icons a, .icon{
     color:white;
-    width: 10px;
-    height: auto;
+    width: 100px;
   }
 }
+/* For Iphones */
 @media (max-device-width: 600px) {
   body 
   { 
@@ -189,19 +102,25 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
   } 
   #wrapper { 
-width: 80%;
-height: 100%; 
+position: relative;
+width: 90%;
+height: 90vh; 
 margin-left: auto; 
 margin-right: auto; 
 background-color:#2378b8; 
   } 
+  nav h1, h3{
+    font-size: 35px;
+    transform: translateY();
+    align-self: middle;
+  }
   .imgMe{
 padding-top: 1%;
 height: auto;
-width: 20px;
+width: 100px;
 position: absolute;
-margin-left: 64%;
-transform: translateY(100%)
+bottom:0px;
+right: 0px;
 
   }
   nav h4 {
@@ -220,7 +139,7 @@ margin-bottom: auto;
 padding-left:5px;
 transform: translateY(2px);
 height: auto;
-width: 25px;
+width: 40px;
 padding-top: 10px;
 
   }
@@ -231,7 +150,7 @@ height:2%;
 padding-bottom: 2%; 
   }
   #banner{ 
-height:100px; 
+height:75px; 
 padding-top: -5%;
 background-color: #212A31; 
 
@@ -250,16 +169,7 @@ justify-content: space-between;
   nav h4 a{
   color: white;
   }
-  .pfp{
-margin-top: auto;
-margin-bottom: auto;
-padding-left:10px;
-transform: translateY(2px);
-height: auto;
-width: 75px;
-padding-top: 10px;
 
-  }
   .Intro{
 color: white;
 padding-left: 10px;
@@ -272,12 +182,19 @@ vertical-align: middle;
   header{
 position:top;
   }
-  .icons a{
+ .artfight{
+  transform: translateX(50px);
+ } 
+
+  .icons a, .icon{
 color:white;
-width: 10px;
+width: 50px;
 height: auto;
+transform: translateY(100px);
+
   }
 }
+/* For Ipads */
 @media (max-width: 991px) and (min-width: 601px) {
   body 
 { 
@@ -287,8 +204,9 @@ height: auto;
 
 } 
 #wrapper { 
+  position: relative;
   width: 80%;
-  height: 90%;
+  height: 90vh; 
   margin-left: auto; 
   margin-right: auto; 
   background-color:red; 
@@ -296,10 +214,10 @@ height: auto;
 .imgMe{
   padding-top: 1%;
   height: auto;
-  width: 50px;
+  width: 250px;
   position: absolute;
-  margin-left: 10%;
-  transform: translateY(4%)
+  bottom:0px;
+  right: 0px;
   
   
 }
@@ -309,7 +227,7 @@ height: auto;
   padding-left:10px;
   transform: translateY(2px);
   height: auto;
-  width: 25px;
+  width: 70px;
   padding-top: 5px;
   
 }
@@ -341,7 +259,7 @@ nav h4 {
   
   width: auto;
   height: 40%;
-  font-size: 25px;
+  font-size: 30px;
   
   
  
@@ -350,21 +268,25 @@ nav h4 {
 nav h4 a{
   color: white;
 }
+.Intro h1, h3{
+  transform: translateY(-100px);
+}
 .Intro{
   color: white;
   padding-left: 10px;
-  font-size: 50px;
+  font-size: 60px;
   margin-top: auto;
   margin-bottom: auto;
-  vertical-align: middle;
+  
+
   
 }
 header{
   position:top;
 }
-.icons a{
+.icons a, .icon{
   color:white;
-  width: 10px;
-  height: auto;
+  width: 70px;
+  transform: translateY(10vh);
 }
 }
