@@ -3,6 +3,12 @@
 
 /* For Laptops and Big Devices */
 @media (min-width: 992px) {
+  #myvid{
+    position: absolute;
+    left: 50vh;
+  
+    
+  }
     .btn {
       padding: 21px 50px;
       font-size: 2.4rem;
