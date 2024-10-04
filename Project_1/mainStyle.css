@@ -1,16 +1,249 @@
 @charset "UTF-8"; 
-@media (max-width: 600px){
+@media (min-width: 601px){
+
+  body 
+  { 
+    background: linear-gradient(#212A31, #D3D9D4); 
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
+  } 
   #wrapper { 
     width: 80%;
-    height: 600px; 
+    height: 100%; 
     margin-left: auto; 
     margin-right: auto; 
-    background-color:#2E3944; 
+    background-color:#212A31; 
   } 
+  .imgMe{
+    padding-top: 1%;
+    height: auto;
+    width: 100px;
+    position: absolute;
+    margin-left: 64%;
+    transform: translateY(100%)
+    
+  }
+  nav h4 {
+    
+    width: auto;
+    height: 40%;
+    font-size: 15px;
+    
+    
+   
+    margin-bottom: 20px;
+  }
+  .pfp{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left:5px;
+    transform: translateY(2px);
+    height: auto;
+    width: 25px;
+    padding-top: 10px;
+    
+  }
+  #footer 
+  { 
+    padding-left: 3%;
+    height:2%;
+    padding-bottom: 2%; 
+  }
+  #banner
+  { 
+    height:100; 
+    padding-top: -5%;
+    background-color: #212A31; 
+    
+  } 
+  .Contact{
+   
+    
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  nav h4 {
+    
+    width: auto;
+    height: 40%;
+    font-size: 25px;
+    
+    
+   
+    margin-bottom: 30px;
+  }
+  nav h4 a{
+    color: white;
+  }
+  .pfp{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left:10px;
+    transform: translateY(2px);
+    height: auto;
+    width: 75px;
+    padding-top: 10px;
+    
+  }
+  .Intro{
+    color: white;
+    padding-left: 10px;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    
+  }
+  
+  .topban{
+  transform: translateY(1%);
+  
+  }
+
+  .contactbackground{
+    padding-left: 10%;
+    font-size: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+  }
+
+  .clear
+  { 
+    clear: both; 
+  }
+
+
+  header{
+    position:top;
+  }
+  .icons a{
+    color:white;
+    width: 10px;
+    height: auto;
+  }
+}
+@media (max-width: 991px){
+  body 
+  { 
+    background: linear-gradient(#212A31, #D3D9D4); 
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
+  } 
+  #wrapper { 
+    width: 80%;
+    height: 90%;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color:red; 
+  } 
+  .imgMe{
+    padding-top: 1%;
+    height: auto;
+    width: 50px;
+    position: absolute;
+    margin-left: 10%;
+    transform: translateY(4%)
+    
+    
+  }
+  .pfp{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left:10px;
+    transform: translateY(2px);
+    height: auto;
+    width: 25px;
+    padding-top: 5px;
+    
+  }
+  #footer 
+  { 
+    padding-left: 3%;
+    height:2%;
+    padding-bottom: 2%; 
+  }
+  #banner
+  { 
+    height:100; 
+    padding-top: -5%;
+    background-color: #212A31; 
+    
+  } 
+  .Contact{
+   
+    
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  nav h4 {
+    
+    width: auto;
+    height: 40%;
+    font-size: 25px;
+    
+    
+   
+    margin-bottom: 30px;
+  }
+  nav h4 a{
+    color: white;
+  }
+  
+  
+  .Intro{
+    color: white;
+    padding-left: 10px;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    
+  }
+  
+  .topban{
+  transform: translateY(1%);
+  
+  }
+
+  .contactbackground{
+    padding-left: 10%;
+    font-size: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+  }
+
+  .clear
+  { 
+    clear: both; 
+  }
+
+
+  header{
+    position:top;
+  }
+  .icons a{
+    color:white;
+    width: 10px;
+    height: auto;
+  }
 }
   
 
-  
+@media (min-width: 992px) {
     .btn {
       padding: 21px 50px;
       font-size: 2.4rem;
@@ -27,7 +260,7 @@
   
   #wrapper { 
     width: 80%;
-    height: 660px; 
+    height: 650px; 
     margin-left: auto; 
     margin-right: auto; 
     background-color:#2E3944; 
@@ -83,8 +316,9 @@
     
   }
   .Intro{
+    color: white;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: auto;
     margin-bottom: auto;
     vertical-align: middle;
@@ -96,7 +330,7 @@
     width: 300px;
     position: absolute;
     margin-left: 56%;
-    transform: translateY(-11%)
+    transform: translateY(4%)
     
     
   }
@@ -123,7 +357,8 @@
     position:top;
   }
   .icons a{
-    color:black;
+    color:white;
     width: 10px;
     height: auto;
   }
+}
