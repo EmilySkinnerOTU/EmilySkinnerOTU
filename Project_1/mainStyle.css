@@ -3,9 +3,38 @@
 
 /* For Laptops and Big Devices */
 @media (min-width: 992px) {
+  .txtabout{
+    position: absolute;
+    left: 5vh;
+    top: 5vh;
+    font-size: 28px;
+    color:azure
+  }
+  .stitch{
+    position: absolute;
+    right: 10vh;
+    top: 10vh;
+    width: 20vh;
+    height: auto;
+  }
+  .fortnite{
+    position: absolute;
+    right: 10vh;
+    bottom: 10vh;
+    width: 20vh;
+    height: auto;
+  }
+  .minecraft{
+    position: absolute;
+    right: 10vh;
+    top: 35vh;
+    width: 20vh;
+    height: auto;
+  }
   #myvid{
     position: absolute;
     left: 50vh;
+    width: 40vh;
   
     
   }
@@ -100,6 +129,43 @@
 }
 /* For Iphones */
 @media (max-device-width: 600px) {
+  .txtabout{
+    position: absolute;
+    left: 0vh;
+    top: 0vh;
+    font-size: 14px;
+    color:azure
+  }
+  .stitch{
+    position: absolute;
+    right: 0vh;
+    bottom: 0vh;
+    width: 12vh;
+    height: auto;
+  }
+  .fortnite{
+    position: absolute;
+    right: 18vh;
+    bottom: 0vh;
+    width: 12vh;
+    height: auto;
+  }
+  .minecraft{
+    position: absolute;
+    left: 0vh;
+    bottom: 0vh;
+    width: 12vh;
+    height: auto;
+  }
+  #myvid{
+    position: absolute;
+    top: 10px;
+    right: 0vh;
+    width: 150px;
+    height:auto;
+     
+    
+  }
   body 
   { 
 background: linear-gradient(#212A31, #D3D9D4); 
@@ -202,6 +268,42 @@ transform: translateY(100px);
 }
 /* For Ipads */
 @media (max-width: 991px) and (min-width: 601px) {
+  .txtabout{
+    position: absolute;
+    left: 0vh;
+    top: 5vh;
+    font-size: 24px;
+    color:azure
+  }
+  .stitch{
+    position: absolute;
+    right: 0vh;
+    bottom: 0vh;
+    width: 12vh;
+    height: auto;
+  }
+  .fortnite{
+    position: absolute;
+    right: 24vh;
+    bottom: 0vh;
+    width: 12vh;
+    height: auto;
+  }
+  .minecraft{
+    position: absolute;
+    left: 0vh;
+    bottom: 0vh;
+    width: 12vh;
+    height: auto;
+  }
+  #myvid{
+    position: absolute;
+    left: 50%;
+    top: 5vh;
+    width: 300px;
+    height:auto;
+    
+  }
   body 
 { 
   background: linear-gradient(#212A31, #D3D9D4); 
