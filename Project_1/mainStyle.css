@@ -10,16 +10,16 @@
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 0vh;
+    margin-top: 20vh;
     
   }
  
   .topban{
+    width: 80%;
+    left: 10%;
     position: absolute;
-    top: 5vh;
-    left: 40vh; 
+    top: 5vh; 
     margin: middle;
-    
   }
   .txtabout{
     position: absolute;
@@ -147,6 +147,24 @@
 }
 /* For Iphones */
 @media (max-device-width: 600px) {
+  .IntroProject a, .IntroProject h2 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0vh;
+    
+  }
+ 
+  .topban{
+    width: 100%;
+    left: 0%;
+    position: absolute;
+    top: 5vh; 
+    margin: middle;
+  }
+
   .txtabout{
     position: absolute;
     left: 0vh;
@@ -283,6 +301,23 @@ transform: translateY(100px);
 }
 /* For Ipads */
 @media (max-width: 991px) and (min-width: 601px) {
+  .IntroProject a, .IntroProject h2 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15vh;
+    
+  }
+ 
+  .topban{
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    top: 5vh; 
+    margin: middle;
+  }
   .txtabout{
     position: absolute;
     left: 0vh;
@@ -379,7 +414,7 @@ nav h4 {
   
   width: auto;
   height: 40%;
-  font-size: 30px;
+  font-size: 25px;
   
   
  
