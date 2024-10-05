@@ -3,7 +3,12 @@
 
 /* For Laptops and Big Devices */
 @media (min-width: 1025px) {
+#contentbackground h1{
+  font-size: 80px;
+  text-align: center;
+}
 #contentbackground{
+
   width: 100%;
   text-align: center;
 }
