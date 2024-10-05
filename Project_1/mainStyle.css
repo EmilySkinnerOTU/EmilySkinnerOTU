@@ -3,6 +3,24 @@
 
 /* For Laptops and Big Devices */
 @media (min-width: 992px) {
+
+  .IntroProject a, .IntroProject h2 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0vh;
+    
+  }
+ 
+  .topban{
+    position: absolute;
+    top: 5vh;
+    left: 40vh; 
+    margin: middle;
+    
+  }
   .txtabout{
     position: absolute;
     left: 5vh;
@@ -227,10 +245,7 @@ padding-top: -5%;
 background-color: #212A31; 
 
   } 
-  .Contact{
-
-
-  }
+  
 
   nav{
 display: flex;
@@ -352,10 +367,7 @@ transform: translateY(100px);
   background-color: #212A31; 
   
 } 
-.Contact{
- 
-  
-}
+
 
 nav{
   display: flex;
