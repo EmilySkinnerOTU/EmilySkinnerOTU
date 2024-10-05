@@ -28,6 +28,8 @@ Videos I watched
 Dani Krossing - 24| MAKE A WEBSITE RESPONSIVE FOR ALL DEVICES
 
 A Designer Who Codes- Easily add Social Media Icons To Your Website w/HTML & CSS
+^^
+used the code in past versions but since deleted it as I realized it was easier to download the png versions and add them as usual.
 
  
  
