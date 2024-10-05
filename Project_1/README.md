@@ -15,7 +15,7 @@ This code is a project for school, as such it includes the following
 
 This is a list of everything referenced/Used in this document:
 Colour Scheme: Jeff Koons Moon Phases 
-    Codes: 212A31, 2E3944, 124E66, 748D92, D3D9D4
+    Codes: 212A31, 2E3944, 124E66, 748D92, D3D9D4, 1c2630, 20272f
 
 All Website Pages Contain Content Learned In Class.
 Josh Byers - Responsive Screen Sizes 
