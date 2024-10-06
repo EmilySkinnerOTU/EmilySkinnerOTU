@@ -48,7 +48,7 @@
     left: 10%;
     position: absolute;
     top: 5vh; 
-    margin: middle;
+   
   }
   .txtabout{
     position: absolute;
@@ -110,7 +110,6 @@
   #banner
   { 
     height:100px; 
-    padding-top: -5%;
     background-color: #212A31; 
     
   } 
@@ -161,10 +160,6 @@
     right: 0px;
     
     
-  }
-
-  header{
-    position:top;
   }
   .icons a, .icon{
     color:white;
@@ -217,7 +212,6 @@
     left: 0%;
     position: absolute;
     top: 5vh; 
-    margin: middle;
   }
   .txtabout{
     position: absolute;
@@ -273,8 +267,6 @@ background-color:#1c2630;
   } 
   nav h1, h3{
     font-size: 35px;
-    transform: translateY();
-    align-self: middle;
   }
   .imgMe{
 padding-top: 1%;
@@ -313,7 +305,6 @@ padding-bottom: 2%;
   }
   #banner{ 
 height:75px; 
-padding-top: -5%;
 background-color: #212A31; 
 
   } 
@@ -338,9 +329,7 @@ margin-bottom: auto;
 vertical-align: middle;
 
   }
-  header{
-position:top;
-  }
+
  .artfight{
   transform: translateX(50px);
  } 
@@ -399,7 +388,6 @@ transform: translateY(100px);
     left: 10%;
     position: absolute;
     top: 5vh; 
-    margin: middle;
   }
   .txtabout{
     position: absolute;
@@ -481,7 +469,6 @@ transform: translateY(100px);
 #banner
 { 
   height:100px; 
-  padding-top: -5%;
   background-color: #212A31; 
   
 } 
@@ -518,9 +505,6 @@ nav h4 a{
   
 
   
-}
-header{
-  position:top;
 }
 .icons a, .icon{
   color:white;
