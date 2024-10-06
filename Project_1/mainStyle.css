@@ -1,16 +1,39 @@
 @charset "UTF-8"; 
+/*Main Commands Used
+It goes in order of me scrolling through all the commands I used
 
+font-size - Changes the size of the text
+transform:translateY(); - Moves the directed object down
+color:; - changes the color of the desired object
+height - changes the height/ identify users screen height
+width - changes the width or can be used to identify the full users screen width and act accordingly.
+position - States what position the object is concidered as (Absolute, doesn't move from where you set it)
+justify-content - allign items
+text align - alligns text to desired position
+top - moves the item to the top and the goes down depending on the number
+gap - used to make gaps between objects so they don't overlap
+left, right - helps moves objects to desired place
+bottom- helps items stick to bottom and goes up with numbers
+font-family -determines what fonts to used to fit the users browser from a list
+padding - gives space from the desired side (top, right, left, bottom)
+display -determins how an object is rendered
+flex-wrap- forces items to fit the screen even if tghe move to seperate lines
+margin- creates space around objects/elements
+
+For any other questions about my code feel free to message me!
+
+
+*/
 
 /* For Laptops and Big Devices */
 @media (min-width: 1025px) {
+  /*Contact Me Stuff */
   #wrapper form input, textarea{
     font-size: 4vh;
   }
 #wrapper button{
   transform: translateY(-50px);
-  font-size: 25px;
-  
-  
+  font-size: 25px; 
 }
 #wrapper form{
   color:white;
@@ -23,7 +46,6 @@
   gap: 2px;
   width: 100%;
 }
-
 #contactbackground h1{
   color:white;
   text-align: center;
@@ -32,7 +54,7 @@
   justify-content: center;
   font-size: 40px;
 }
-
+/* Projects Section*/
   .IntroProject a, .IntroProject h2 {
     width: 100%;
     position: absolute;
@@ -50,6 +72,7 @@
     top: 5vh; 
    
   }
+  /* About Me Section*/
   .txtabout{
     position: absolute;
     left: 5vh;
@@ -86,6 +109,7 @@
   
     
   }
+  /* General Sections - Apply to all mostly*/
   body 
   { 
     background: linear-gradient(#212A31, #D3D9D4); 
@@ -142,6 +166,7 @@
     padding-top: 10px;
     
   }
+  /*Home Page Section */
   .Intro{
     color: white;
     padding-left: 10px;
@@ -168,6 +193,7 @@
 }
 /* For Iphones */
 @media (max-device-width: 600px) {
+  /*Contact me Section */
   #wrapper form input, textarea{
     font-size: 3vh;
   }
@@ -198,6 +224,7 @@
     justify-content: center;
     font-size: 20px;
   }
+  /*Projects Section */
   .IntroProject a, .IntroProject h2 {
     width: 100%;
     position: absolute;
@@ -213,6 +240,7 @@
     position: absolute;
     top: 5vh; 
   }
+  /* About Me Section */
   .txtabout{
     position: absolute;
     left: 0vh;
@@ -250,6 +278,7 @@
      
     
   }
+  /*General Section */
   body 
   { 
 background: linear-gradient(#212A31, #D3D9D4); 
@@ -319,6 +348,7 @@ justify-content: space-between;
   nav h4 a{
   color: white;
   }
+  /*Home Page */
 
   .Intro{
 color: white;
@@ -344,6 +374,7 @@ transform: translateY(100px);
 }
 /* For Ipads */
 @media (max-width: 1024px) and (min-width: 601px) {
+  /* Contact Me Section */
   #wrapper form input, textarea{
     font-size: 3vh;
   }
@@ -373,6 +404,7 @@ transform: translateY(100px);
   justify-content: center;
   font-size: 40px;
 }
+/* Projects Section*/
   .IntroProject a, .IntroProject h2 {
     width: 100%;
     position: absolute;
@@ -389,6 +421,7 @@ transform: translateY(100px);
     position: absolute;
     top: 5vh; 
   }
+  /* About Me Section*/
   .txtabout{
     position: absolute;
     left: 0vh;
@@ -425,6 +458,7 @@ transform: translateY(100px);
     height:auto;
     
   }
+  /* General Section*/
   body 
 { 
  
@@ -494,6 +528,7 @@ nav h4 {
 nav h4 a{
   color: white;
 }
+/* Home Page Section*/
 .Intro h1, h3{
   transform: translateY(-100px);
 }
